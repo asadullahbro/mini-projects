@@ -9,6 +9,7 @@ It can count lines, words, bytes, and characters in a text file.
 python ccwc.py [OPTION] <filename>
 ```
 If no option is given, it prints lines, words, and bytes by default.
+
 • `-c`: count bytes
 
 • `-m`: count characters
@@ -36,6 +37,7 @@ Count bytes:
 python ccwc.py -c test.txt
 ```
 ## Notes
+
 • Make sure the file exists, otherwise it will show an error.
 
 • Words with UTF-8 encoded files.

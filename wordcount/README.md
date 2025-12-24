@@ -10,8 +10,11 @@ python ccwc.py [OPTION] <filename>
 ```
 If no option is given, it prints lines, words, and bytes by default.
 • `-c`: count bytes
+
 • `-m`: count characters
+
 • `-w`: count words
+
 • `-l`: count lines
 
 ## Examples
@@ -34,4 +37,5 @@ python ccwc.py -c test.txt
 ```
 ## Notes
 • Make sure the file exists, otherwise it will show an error.
+
 • Words with UTF-8 encoded files.
